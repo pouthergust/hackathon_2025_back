@@ -1,0 +1,9 @@
+{
+  "schematics": {
+    "nest-add": {
+      "description": "Setup da lib LLM no app",
+      "factory": "./nest-add/index#nestAdd",
+      "schema": "./nest-add/schema.json"
+    }
+  }
+}

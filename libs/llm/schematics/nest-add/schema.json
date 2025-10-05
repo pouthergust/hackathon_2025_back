@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "llm-nest-add",
+  "title": "Opções do llm nest-add",
+  "type": "object",
+  "properties": {
+    "sourceRoot": { "type": "string", "default": "src" }
+  }
+}

@@ -6,7 +6,7 @@ export class MessagesController {
   constructor(private readonly messagesService: MessagesService) {}
 
   @Post('send')
-  sendMessage(@Body('message') message: string) {
-    return this.messagesService.sendMessage(message);
+  async sendMessage(@Body('message') message: string): Promise<string> {
+    return await this.messagesService.sendMessage(message);
   }
 }
